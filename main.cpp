@@ -175,22 +175,5 @@ int main(int argc, char** argv) {
     throw ex;
   }
   
-  /*mvprintw(3, 5, "LINES: %d", LINES);
-  mvprintw(4, 5, "COLS:  %d", COLS);
-  
-  getyx(stdscr, y, x);
-  mvprintw(5, 5, "Momentane Cursorposition: [%d, %d]", y, x);
-  
-  getbegyx(stdscr, y, x);
-  mvprintw(6, 5, "Koordinatenursprung:      [%d, %d]", y, x);
-  
-  getmaxyx(stdscr, y, x);
-  mvprintw(7, 5, "Fenstergrösse:            [%d, %d]", y, x);
-  
-  mvaddstr(11, 2, "Taste drücken -> Ende");
-  refresh();*/
-  
-  //getch();
-  
   return 0;
 }
