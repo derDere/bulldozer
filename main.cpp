@@ -123,6 +123,7 @@ int main(int argc, char** argv) {
         msgbox("Level complete! [Enter] to continue ...");
         currentLevel++;
         delete m;
+        clear();
         m = new Map();
         if(!m->load("./level/" + to_string(currentLevel) + ".txt")) {
           msgbox("All levels finished :D");
